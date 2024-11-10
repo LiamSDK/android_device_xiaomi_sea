@@ -64,7 +64,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sea
-TARGET_KERNEL_CONFIG := sea_debug_defconfig
+TARGET_KERNEL_CONFIG := sea_defconfig
 
 BOARD_BOOTCONFIG := \
     androidboot.selinux=permissive
