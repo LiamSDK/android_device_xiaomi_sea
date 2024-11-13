@@ -1,0 +1,19 @@
+allow system_suspend sysfs:dir { read getattr open };
+
+allow system_suspend sysfs_batteryinfo:dir { read getattr open };
+
+allow system_suspend sysfs:file { read open getattr };
+
+allow system_suspend block_device:dir { search };
+
+allow system_suspend sysfs_batteryinfo:file { getattr open read };
+
+allow system_suspend sysfs_battery_supply:file { getattr open read };
+
+allow system_suspend sysfs_battery_supply:dir { read open };
+
+allow system_suspend sysfs_rtc:dir { read open };
+
+r_dir_file(system_suspend, vendor_sysfs_bms_supply)
+
+r_dir_file(system_suspend, vendor_sysfs_main_supply)

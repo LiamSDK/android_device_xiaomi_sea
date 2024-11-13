@@ -127,9 +127,6 @@ ro.sys.usb.bicr=no
 ro.sys.usb.charging.only=yes
 persist.vendor.otg_control=true
 
-# Debug
-ro.adb.secure=0
-
 # WiFi
 wifi.interface=wlan0
 ro.mediatek.wlan.wsc=1
